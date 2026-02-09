@@ -1,3 +1,3 @@
 install:
-  - FILE="-Dfile=aleafVPN-1.0.0.aar"
-  - mvn install:install-file $FILE -DgroupId=com.lb.sdktest -DartifactId=test -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
+  - FILE="-Dfile=aleafVPN-1.0.1.aar"
+  - mvn install:install-file $FILE -DgroupId=com.lb.sdktest -DartifactId=test -Dversion=1.1 -Dpackaging=aar -DgeneratePom=true
